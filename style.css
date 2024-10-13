@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    max-width: 80%;
+}
+
+figure>img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #bb9a6b;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+span {
+    color: #b3813b;
+}
+
+.subtitle {
+    margin-bottom: 30px;
+    font-size: 16px;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.static-text {
+    font-weight: bold;
+}
+
+.typewriter-container {
+    display: inline-block;
+    text-align: left;
+}
+
+.typewriter-text {
+    display: inline-block;
+    border-right: 2px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    background-color: #121212;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+    cursor: pointer;
+
+    p {
+        color: #fff;
+        max-width: 120px;
+        text-align: center;
+    }
+}
+
+.WhatsApp:hover {
+    transition: 0.8s;
+    background-color: #10b277;
+}
+
+.Instagram:hover {
+    transition: 0.8s;
+    background-color: #c2279e;
+}
+
+.Facebook:hover {
+    transition: 0.8s;
+    background-color: #1987e6;
+}
+
+.ebook:hover {
+    transition: 0.8s;
+    background-color: #7439d3;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    width: auto;
+    margin-top: 50px;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+
+    a {
+        color: #0bcea4;
+        font-size: large;
+    }
+}
